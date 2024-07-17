@@ -38,7 +38,7 @@ createApp({
 
     methods: {
         nextSlide(){
-            // con questo metodo scorro all'immagine sucessiva
+            // con questo metodo scorro verso l'immagine sucessiva
             if (this.active_image === this.slides.length - 1){
                 this.active_image = 0;
             } else {
@@ -47,6 +47,7 @@ createApp({
         },
 
         prevSlide(){
+            // con questo metodo scorro verso l'immagine precedente
             if (this.active_image === 0){
                 this.active_image = this.slides.length - 1
             } else {
