@@ -33,6 +33,27 @@ createApp({
         return{
             slides: slides,
             active_image: 0,
+        };
+    },
+
+    methods: {
+        nextSlide(){
+            // con questo metodo scorro all'immagine sucessiva
+            if (this.active_image === this.slides.length - 1){
+                this.active_image = 0;
+            } else {
+                this.active_image++;
+            }
+        },
+
+        prevSlide(){
+            if (this.active_image === 0){
+                this.active_image = this.slides.length - 1
+            } else {
+                this.active_image--;
+            }
         }
     }
+
+
 }).mount('#app')   // riprendo l'elemento del dom con in "app"

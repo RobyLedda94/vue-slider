@@ -19,4 +19,5 @@ Partendo dal markup della versione svolta in js plain, rifare lo slider ma quest
  1.2 - monto l'elemento del dom con id '#app
 
 2- mostro in pagine l'immagine principale e il testo
-3- in js utilizzo le arrow function per scorrere le immagini
+3- ho bisogno di due metodi in cui definisco la logica di scorrimento delle immagini
+
