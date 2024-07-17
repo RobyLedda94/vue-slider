@@ -23,3 +23,15 @@ const slides = [
 ];
 
 console.log(slides);
+
+// struttura base vue 
+
+const { createApp } = Vue;
+
+createApp({
+    data(){
+        return{
+            slides,      // ritorno l'array delle slides
+        }
+    }
+}).mount('#app')   // riprendo l'elemento del dom con in "app"

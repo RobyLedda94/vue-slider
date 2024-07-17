@@ -13,3 +13,7 @@ Partendo dal markup della versione svolta in js plain, rifare lo slider ma quest
 
 
 <!-- codice -->
+
+1- creazione struttura vue js
+ 1.2 - ritorno l'array delle slides
+ 1.2 - monto l'elemento del dom con id '#app
