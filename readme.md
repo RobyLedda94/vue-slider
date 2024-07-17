@@ -20,4 +20,5 @@ Partendo dal markup della versione svolta in js plain, rifare lo slider ma quest
 
 2- mostro in pagine l'immagine principale e il testo
 3- ho bisogno di due metodi in cui definisco la logica di scorrimento delle immagini
+4- richiamo i metodi nei pulsanti next e prev
 
