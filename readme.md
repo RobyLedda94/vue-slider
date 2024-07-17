@@ -23,5 +23,5 @@ Partendo dal markup della versione svolta in js plain, rifare lo slider ma quest
 4- richiamo i metodi nei pulsanti next e prev
 
 5-definisco il funzionamento delle thumb
- 5.1 utilizzo il v-for
+ 5.1 utilizzo il v-for nell'elemento thumb che genera le immagini
 
