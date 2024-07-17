@@ -32,6 +32,7 @@ createApp({
     data(){
         return{
             slides: slides,
+            active_image: 0,
         }
     }
 }).mount('#app')   // riprendo l'elemento del dom con in "app"

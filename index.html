@@ -17,8 +17,8 @@
             <div class="slider-wrapper" tabindex="0">
 
 
-                <div class="item" v-for="(slide, index) in slides">    <!-- SUL DIV ITEM DEVO CICLARE L'ARRAY DELLE IMMAGINI -->              
-                    <img :src="slide.image" :alt="slide.title"/>
+                <div class="item">                
+                    <img :src="slides[active_image].image" :alt="slides[active_image].title"/> <!--MOSTRO SOLO L'IMMAGINE ATTIVA-->
                     <div class="text">
                         <h3>Spiderman</h3>
                         <p>
