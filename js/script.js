@@ -31,7 +31,7 @@ const { createApp } = Vue;
 createApp({
     data(){
         return{
-            slides,      // ritorno l'array delle slides
+            slides: slides,
         }
     }
 }).mount('#app')   // riprendo l'elemento del dom con in "app"
