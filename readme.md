@@ -24,4 +24,6 @@ Partendo dal markup della versione svolta in js plain, rifare lo slider ma quest
 
 5-definisco il funzionamento delle thumb
  5.1 utilizzo il v-for nell'elemento thumb che genera le immagini
+ 5.2 eseguo il bind della classe active in modo da evidenziare l'immagine che visualizzo nella thumb
+ 
 
